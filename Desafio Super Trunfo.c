@@ -6,7 +6,7 @@ int main() {
     float area, PIB;
 
     printf("Registro de carta número 1\n");
-    printf("Atenção não use pontos e virgulas\n");
+    printf("Atenção não use virgulas\n");
     printf("Digite o nome do estado\n");
     scanf("%s" , &estado);
 
@@ -35,7 +35,7 @@ int main() {
     float area1, PIB1;
 
     printf("Registro de carta número 2\n");
-    printf("Atenção não use pontos e virgulas\n");
+    printf("Atenção não use virgulas\n");
     printf("Digite o nome do estado\n");
     scanf("%s" , &estado1);
 
