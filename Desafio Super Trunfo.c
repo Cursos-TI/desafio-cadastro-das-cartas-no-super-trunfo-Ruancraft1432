@@ -6,7 +6,6 @@ int main() {
     float area, PIB;
 
     printf("Registro de carta número 1\n");
-    printf("Atenção não use virgulas\n");
     printf("Digite o nome do estado\n");
     scanf("%s" , &estado);
 
@@ -28,14 +27,13 @@ int main() {
     printf("Digite a quantidade de pontos turisticos\n");
     scanf("%d", &pontos_turisticos);
 
-    printf("----------------------------\n");
+    printf("\n");
     
     char estado1[20], codigo1[20], nome1[20];
     int populacao1, pontos_turisticos1;
     float area1, PIB1;
 
     printf("Registro de carta número 2\n");
-    printf("Atenção não use virgulas\n");
     printf("Digite o nome do estado\n");
     scanf("%s" , &estado1);
 
@@ -57,7 +55,7 @@ int main() {
     printf("Digite a quantidade de pontos turisticos\n");
     scanf("%d", &pontos_turisticos1);
 
-    printf("----------------------------\n");
+    printf("\n");
 
     printf("Carta 1\n");
     printf("Estado: %s\n", estado);
@@ -68,7 +66,7 @@ int main() {
     printf("PIB: %f bilhões de reais\n", PIB);
     printf("Número de Pontos Turísticos: %d\n", pontos_turisticos);
 
-    printf("----------------------------\n");
+    printf("\n");
 
     printf("Carta 2\n");
     printf("Estado: %s\n", estado1);
@@ -79,5 +77,5 @@ int main() {
     printf("PIB: %f bilhões de reais\n", PIB1);
     printf("Número de Pontos Turísticos: %d\n", pontos_turisticos1);
 
-    printf("----------------------------\n");
+    printf("\n");
 }
