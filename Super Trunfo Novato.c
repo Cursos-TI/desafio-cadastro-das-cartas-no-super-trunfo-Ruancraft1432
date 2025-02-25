@@ -2,7 +2,7 @@
 
 int main() {
     //carta 1
-    char estado[20], codigo[5], nome[20];
+    char estado[20], codigo[10], nome[20];
     int populacao, pontos_turisticos;
     float area, PIB;
 
@@ -30,7 +30,7 @@ int main() {
 
     printf("\n");
     //carta 2
-    char estado1[20], codigo1[5], nome1[20];
+    char estado1[20], codigo1[10], nome1[20];
     int populacao1, pontos_turisticos1;
     float area1, PIB1;
 
