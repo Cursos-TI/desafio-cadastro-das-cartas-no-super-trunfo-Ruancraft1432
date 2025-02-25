@@ -57,7 +57,7 @@ int main() {
     scanf("%d", &pontos_turisticos1);
 
     printf("\n");
-
+    //resultado
     printf("Carta 1\n");
     printf("Estado: %s\n", estado);
     printf("Código: %s\n", codigo);
