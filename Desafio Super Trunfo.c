@@ -1,7 +1,8 @@
 #include <stdio.h>
 
 int main() {
-    char estado[20], codigo[20], nome[20];
+    //carta 1
+    char estado[20], codigo[5], nome[20];
     int populacao, pontos_turisticos;
     float area, PIB;
 
@@ -9,7 +10,7 @@ int main() {
     printf("Digite o nome do estado\n");
     scanf("%s" , &estado);
 
-    printf("Digite o código da carta, com a primeira letra do estado seguida de um número\n");
+    printf("Digite o código da carta, primeira letra do estado e depois número(EX:A03,B05)\n");
     scanf("%s", &codigo);
 
     printf("Digite o nome da capital\n");
@@ -28,8 +29,8 @@ int main() {
     scanf("%d", &pontos_turisticos);
 
     printf("\n");
-    
-    char estado1[20], codigo1[20], nome1[20];
+    //carta 2
+    char estado1[20], codigo1[5], nome1[20];
     int populacao1, pontos_turisticos1;
     float area1, PIB1;
 
@@ -37,7 +38,7 @@ int main() {
     printf("Digite o nome do estado\n");
     scanf("%s" , &estado1);
 
-    printf("Digite o código da carta, com a primeira letra do estado seguida de um número\n");
+    printf("Digite o código da carta, primeira letra do estado e depois número(EX:A03,B05)\n");
     scanf("%s", &codigo1);
 
     printf("Digite o nome da capital\n");
@@ -76,6 +77,4 @@ int main() {
     printf("Área: %f km²\n", area1);
     printf("PIB: %f bilhões de reais\n", PIB1);
     printf("Número de Pontos Turísticos: %d\n", pontos_turisticos1);
-
-    printf("\n");
 }
